@@ -104,8 +104,13 @@ wildtracker/
 ```bash
 cd wildtracker-api
 npm test                    # Run all tests
-npm run test:integration    # Run integration tests
-npm run test:performance    # Run performance tests
+npm run test:unit          # Run unit tests only
+npm run test:integration   # Run integration tests only
+npm run test:performance   # Run performance tests only
+npm run test:all           # Run comprehensive test suite
+npm run test:coverage      # Run tests with coverage
+npm run test:tdd           # Run tests in TDD/watch mode
+npm run test:ci            # CI/CD testing
 ```
 
 ### Web Tests
