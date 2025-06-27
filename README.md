@@ -201,6 +201,7 @@ For support and questions:
 
 ## 🔮 Roadmap
 
+- [ ] DBMS Consumer for Analytic
 - [ ] Real-time alerts and notifications
 - [ ] Machine learning for behavior prediction
 - [ ] Mobile app for field researchers
