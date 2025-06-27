@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet CSS */
+@import 'leaflet/dist/leaflet.css';
+@import 'leaflet.markercluster/dist/MarkerCluster.css';
+@import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+
+/* Custom styles */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.marker-cluster {
+  background: rgba(59, 130, 246, 0.6);
+  border: 2px solid rgba(59, 130, 246, 0.8);
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.marker-cluster:hover {
+  background: rgba(59, 130, 246, 0.8);
+}
+
+.wildlife-marker {
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.wildlife-marker.wolf { background-color: #8B4513; }
+.wildlife-marker.bear { background-color: #654321; }
+.wildlife-marker.deer { background-color: #DEB887; }
+.wildlife-marker.eagle { background-color: #4169E1; }
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+} 
