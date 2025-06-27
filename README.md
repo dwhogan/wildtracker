@@ -111,9 +111,11 @@ npm run test:performance    # Run performance tests
 ### Web Tests
 ```bash
 cd wildtracker-web
-npm test                    # Run unit tests
-npm run test:e2e           # Run end-to-end tests
+npm test             # Run all unit and integration tests
+npm run test:tdd     # Run tests in TDD/watch mode
+npm run test:coverage # Run tests with coverage report
 ```
+See [wildtracker-web/TESTING.md](wildtracker-web/TESTING.md) for details on frontend testing.
 
 ## 📈 Data Flow
 

@@ -167,12 +167,24 @@ docker run -p 3001:3000 wildtracker-web
 - Safari 14+
 - Edge 90+
 
+## Testing
+
+To run the frontend unit and integration tests:
+
+```bash
+npm test             # Run all tests
+npm run test:tdd     # Run tests in TDD/watch mode
+npm run test:coverage # Run tests with coverage report
+```
+
+See [TESTING.md](./TESTING.md) for details on the testing philosophy, structure, and best practices.
+
 ## Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
-4. Add tests if applicable
+4. Add or update tests as appropriate (see [TESTING.md](./TESTING.md))
 5. Submit a pull request
 
 ## License
